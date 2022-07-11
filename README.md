@@ -1,4 +1,3 @@
-# Tutorial
 ```sh
 # install & configure asdf
 brew install asdf
