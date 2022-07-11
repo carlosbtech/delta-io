@@ -7,7 +7,7 @@ asdf plugin-add python
 
 asdf list all python
 
-asdf install python 3.10.0
+asdf install python 3.9.13
 
 # install pyspark & delta
 !pip install delta-spark==1.2.1
