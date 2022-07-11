@@ -18,7 +18,7 @@ spark = (
     SparkSession
     .builder
     .master('local[*]')
-    .appName('Quickstart DeltaLake Eng Academy')
+    .appName('Quickstart DeltaLake')
     .config('spark.jars.packages', 'io.delta:delta-core_2.12:1.2.1')
     .config('spark.sql.extensions', 'io.delta.sql.DeltaSparkSessionExtension')
     .config('spark.sql.catalog.spark_catalog', 'org.apache.spark.sql.delta.catalog.DeltaCatalog')
